@@ -2,6 +2,8 @@
 
 A Retrieval-Augmented Generation (RAG) app that answers questions from an uploaded PDF, with page-level references.
 
+**Live demo:** https://rag-chat-with-pdf-myllmdkyifiwarejank2hz.streamlit.app/
+
 ## How it works
 1. The PDF is read with PyMuPDF and split into overlapping chunks (1200 characters, 200 overlap).
 2. Chunks are embedded and stored in ChromaDB.
